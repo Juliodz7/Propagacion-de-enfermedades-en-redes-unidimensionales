@@ -17,7 +17,7 @@ El objetivo principal de este proyecto es analizar la propagación de enfermedad
 - **Dependencia de parámetros**: La propagación de la enfermedad muestra una fuerte dependencia con el coeficiente de recuperación c, observándose una transición de fase en el valor crítico de c. 
 - **Distribuciones del tamaño de la propagación**: Se propuso una distribución de probabilidad teórica del tamaño final de la infección
 como función de c.
-- **Validación teórica**: Los resultados numéricos muestran buen acuerdo con predicciones analíticas del modelo en el régimen de parámetros estudiado
+- **Validación teórica**: Los resultados numéricos muestran buena coincidencia con predicciones analíticas del modelo en el régimen de parámetros estudiado
 
 ## Contenido del Repositorio
 
