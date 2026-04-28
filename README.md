@@ -9,7 +9,7 @@ Este repositorio contiene las observaciones obtenidas de **simulaciones de Monte
 El objetivo principal de este proyecto es analizar la propagación de enfermedades infecciosas en sistemas unidimensionales utilizando el modelo SIR discreto en una red de agentes. Se busca:
 
 - Analizar cómo parámetros clave (como la probabilidad de recuperación por agente) afectan la dinámica de propagación
-- Obtener la distribución teórica del tamaño de la propagación tanto de manera teorica como en las simulaciones.
+- Obtener la distribución del tamaño de la propagación tanto de manera teorica como en las simulaciones.
 - Determinar la distribución de probabilidad de la distancia r entre dos individuos cualesquiera dentro de la cadena de contagios. 
 
 ## Modelo Teórico
