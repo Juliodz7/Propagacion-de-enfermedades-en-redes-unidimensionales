@@ -6,7 +6,7 @@ Este repositorio contiene las observaciones obtenidas de **simulaciones de Monte
 
 ## Objetivo
 
-El objetivo principal de este proyecto es **estudiar y caracterizar la propagación de enfermedades infecciosas en sistemas unidimensionales** utilizando el modelo SIR discreto en una red de contactos. Específicamente, se busca:
+El objetivo principal de este proyecto es analizar la propagación de enfermedades infecciosas en sistemas unidimensionales utilizando el modelo SIR discreto en una red de agentes. Se busca:
 
 - Analizar cómo parámetros clave (como la tasa de contagio) afectan la dinámica de propagación
 - Determinar el comportamiento crítico y umbrales de epidemia en redes 1D
@@ -15,12 +15,9 @@ El objetivo principal de este proyecto es **estudiar y caracterizar la propagaci
 
 ## Resultados Principales
 
-Los análisis realizados revelan:
-
-- **Dependencia de parámetros**: La propagación de la enfermedad muestra una fuerte dependencia con el coeficiente de contagio (c), observándose transiciones de fase a valores críticos
+- **Dependencia de parámetros**: La propagación de la enfermedad muestra una fuerte dependencia con el coeficiente de recuperación c, observándose transiciones de fase a valores críticos
 - **Distribuciones de propagación**: Se obtuvieron distribuciones de probabilidad para la distancia máxima alcanzada por la epidemia en la red
 - **Umbrales epidemiológicos**: Se identificaron valores umbral de los parámetros por debajo de los cuales la enfermedad se extingue rápidamente
-- **Estadísticas de brotes**: Se calcularon estadísticas detalladas incluyendo duración media, tamaño de epidemia y fluctuaciones estocásticas
 - **Validación teórica**: Los resultados numéricos muestran buen acuerdo con predicciones analíticas del modelo en el régimen de parámetros estudiado
 
 ## Contenido del Repositorio
