@@ -4,7 +4,7 @@
 
 Este repositorio contiene las observaciones obtenidas de **simulaciones de Monte Carlo** realizadas en Python del modelo **SIR (Susceptible-Infectado-Recuperado)** en redes unidimensionales, utilizando la formulación de **stochastic lattice gas**.
 
-## 📋 Contenido del Repositorio
+## Contenido del Repositorio
 
 - **`SIR_1D.ipynb`** - Notebook principal con la implementación del modelo y análisis de resultados
 - **`Modelo_SIR_1D.pdf`** - Documento teórico con el formalismo del modelo
@@ -14,7 +14,7 @@ Este repositorio contiene las observaciones obtenidas de **simulaciones de Monte
   - Valores medios de coeficientes
   - Archivos de Mathematica con cálculos complementarios
 
-## 🔬 Modelo Teórico
+## Modelo Teórico
 
 El modelo SIR es un modelo compartimentado clásico que describe la propagación de enfermedades infecciosas. En esta implementación:
 
