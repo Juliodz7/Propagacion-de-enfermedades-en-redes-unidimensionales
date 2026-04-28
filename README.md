@@ -12,6 +12,17 @@ El objetivo principal de este proyecto es analizar la propagación de enfermedad
 - Obtener la distribución teórica del tamaño de la propagación tanto de manera teorica como en las simulaciones.
 - Determinar la distribución de probabilidad de la distancia r entre dos individuos cualesquiera dentro de la cadena de contagios. 
 
+## Modelo Teórico
+
+El modelo SIR es un modelo compartimentado clásico que describe la propagación de enfermedades infecciosas. En esta implementación:
+
+- **S (Susceptible)**: Individuos que pueden contraer la enfermedad
+- **I (Infectado)**: Individuos actualmente infectados
+- **R (Recuperado)**: Individuos que se han recuperado y son inmunes
+
+Las simulaciones se realizan en **redes unidimensionales** usando la formulación de **stochastic lattice gas**, que proporciona un marco riguroso para estudiar dinámicas complejas en sistemas espacialmente extendidos.
+
+
 ## Resultados Principales
 
 - **Dependencia de parámetros**: La propagación de la enfermedad muestra una fuerte dependencia con el coeficiente de recuperación c, observándose una transición de fase en el valor crítico de c. 
@@ -29,15 +40,6 @@ como función de c.
   - Valores medios de coeficientes
   - Archivos de Mathematica con cálculos complementarios
 
-## Modelo Teórico
-
-El modelo SIR es un modelo compartimentado clásico que describe la propagación de enfermedades infecciosas. En esta implementación:
-
-- **S (Susceptible)**: Individuos que pueden contraer la enfermedad
-- **I (Infectado)**: Individuos actualmente infectados
-- **R (Recuperado)**: Individuos que se han recuperado y son inmunes
-
-Las simulaciones se realizan en **redes unidimensionales** usando la formulación de **stochastic lattice gas**, que proporciona un marco riguroso para estudiar dinámicas complejas en sistemas espacialmente extendidos.
 
 ## 📄 Licencia
 
