@@ -24,41 +24,12 @@ El modelo SIR es un modelo compartimentado clásico que describe la propagación
 
 Las simulaciones se realizan en **redes unidimensionales** usando la formulación de **stochastic lattice gas**, que proporciona un marco riguroso para estudiar dinámicas complejas en sistemas espacialmente correlacionados.
 
-### Parámetros Principales
-
-- **β (Tasa de Infección)**: Define la probabilidad de que un individuo susceptible contraiga la enfermedad al estar en contacto con uno infectado
-- **γ (Tasa de Recuperación)**: Define la velocidad a la que los individuos infectados se recuperan
-- **c**: Parámetro de control que varía en las simulaciones (0.1, 0.5, 0.8)
-
-## 🐍 Tecnologías Utilizadas
-
-- **Python** - Implementación de simulaciones de Monte Carlo
-- **Jupyter Notebook** - Análisis interactivo y visualización de resultados
-- **Monte Carlo** - Método de muestreo estadístico para simulaciones estocásticas
-- **Mathematica** - Cálculos teóricos complementarios
-
-## 📊 Resultados Principales
-
-El repositorio contiene análisis detallados de:
-- **Frecuencias de propagación** bajo diferentes condiciones de parámetros
-- **Distancias de propagación** de la enfermedad en la red
-- **Valores medios de coeficientes** con diferentes tamaños de red (1e3, 1e4, 1e5 sitios)
-- **Comportamiento del modelo** ante variaciones en los parámetros de control
-
-## 🚀 Cómo Usar
-
-1. Abre el notebook `SIR_1D.ipynb` en Jupyter Notebook o Google Colab
-2. Sigue las celdas para ejecutar las simulaciones
-3. Consulta el archivo `Modelo_SIR_1D.pdf` para entender la teoría detrás del modelo
-4. Analiza los archivos de datos generados para ver los resultados de las simulaciones
 
 ## 📄 Licencia
 
 Este proyecto está bajo licencia **MIT**. Ver el archivo `LICENSE` para más detalles.
 
-## 👤 Autor
 
-**Juliodz7** - [Perfil de GitHub](https://github.com/Juliodz7)
 
 ---
 
