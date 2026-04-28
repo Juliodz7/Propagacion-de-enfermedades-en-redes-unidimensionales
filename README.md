@@ -9,14 +9,14 @@ Este repositorio contiene las observaciones obtenidas de **simulaciones de Monte
 El objetivo principal de este proyecto es analizar la propagación de enfermedades infecciosas en sistemas unidimensionales utilizando el modelo SIR discreto en una red de agentes. Se busca:
 
 - Analizar cómo parámetros clave (como la probabilidad de recuperación por agente) afectan la dinámica de propagación
-- Comparar resultados numéricos con predicciones teóricas del modelo
-- Cuantificar la distancia de propagación para diferentes configuraciones
+- Obtener la distribución teoria del tamaño de la propagación tanto de manera teorica como en las simulaciones.
+- Determinar la distribución de probabilidad de la distancia r entre dos individuos cualesquiera dentro de la cadena de contagios. 
 
 ## Resultados Principales
 
-- **Dependencia de parámetros**: La propagación de la enfermedad muestra una fuerte dependencia con el coeficiente de recuperación c, observándose transiciones de fase a valores críticos
-- **Distribuciones de propagación**: Se obtuvieron distribuciones de probabilidad para la distancia máxima alcanzada por la epidemia en la red
-- **Umbrales epidemiológicos**: Se identificaron valores umbral de los parámetros por debajo de los cuales la enfermedad se extingue rápidamente
+- **Dependencia de parámetros**: La propagación de la enfermedad muestra una fuerte dependencia con el coeficiente de recuperación c, observándose una transición de fase en el valor crítico de c. 
+- **Distribuciones del tamaño de la propagación**: Se propuso una distribución de probabilidad teórica del tamaño final de la infección
+como función de c.
 - **Validación teórica**: Los resultados numéricos muestran buen acuerdo con predicciones analíticas del modelo en el régimen de parámetros estudiado
 
 ## Contenido del Repositorio
