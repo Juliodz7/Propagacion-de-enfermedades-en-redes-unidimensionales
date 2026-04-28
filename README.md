@@ -4,6 +4,25 @@
 
 Este repositorio contiene las observaciones obtenidas de **simulaciones de Monte Carlo** realizadas en Python del modelo **SIR (Susceptible-Infectado-Recuperado)** en redes unidimensionales, utilizando la formulación de **stochastic lattice gas**.
 
+## Objetivo
+
+El objetivo principal de este proyecto es **estudiar y caracterizar la propagación de enfermedades infecciosas en sistemas unidimensionales** utilizando el modelo SIR discreto en una red de contactos. Específicamente, se busca:
+
+- Analizar cómo parámetros clave (como la tasa de contagio) afectan la dinámica de propagación
+- Determinar el comportamiento crítico y umbrales de epidemia en redes 1D
+- Comparar resultados numéricos con predicciones teóricas del modelo
+- Cuantificar la distancia de propagación y frecuencia de brotes epidémicos para diferentes configuraciones
+
+## Resultados Principales
+
+Los análisis realizados revelan:
+
+- **Dependencia de parámetros**: La propagación de la enfermedad muestra una fuerte dependencia con el coeficiente de contagio (c), observándose transiciones de fase a valores críticos
+- **Distribuciones de propagación**: Se obtuvieron distribuciones de probabilidad para la distancia máxima alcanzada por la epidemia en la red
+- **Umbrales epidemiológicos**: Se identificaron valores umbral de los parámetros por debajo de los cuales la enfermedad se extingue rápidamente
+- **Estadísticas de brotes**: Se calcularon estadísticas detalladas incluyendo duración media, tamaño de epidemia y fluctuaciones estocásticas
+- **Validación teórica**: Los resultados numéricos muestran buen acuerdo con predicciones analíticas del modelo en el régimen de parámetros estudiado
+
 ## Contenido del Repositorio
 
 - **`SIR_1D.ipynb`** - Notebook principal con la implementación del modelo y análisis de resultados
@@ -22,14 +41,11 @@ El modelo SIR es un modelo compartimentado clásico que describe la propagación
 - **I (Infectado)**: Individuos actualmente infectados
 - **R (Recuperado)**: Individuos que se han recuperado y son inmunes
 
-Las simulaciones se realizan en **redes unidimensionales** usando la formulación de **stochastic lattice gas**, que proporciona un marco riguroso para estudiar dinámicas complejas en sistemas espacialmente correlacionados.
-
+Las simulaciones se realizan en **redes unidimensionales** usando la formulación de **stochastic lattice gas**, que proporciona un marco riguroso para estudiar dinámicas complejas en sistemas espacialmente extendidos.
 
 ## 📄 Licencia
 
 Este proyecto está bajo licencia **MIT**. Ver el archivo `LICENSE` para más detalles.
-
-
 
 ---
 
