@@ -22,6 +22,11 @@ El modelo SIR es un modelo compartimentado clásico que describe la propagación
 
 Las simulaciones se realizan en **redes unidimensionales** usando la formulación de **stochastic lattice gas**, que proporciona un marco riguroso para estudiar dinámicas complejas en sistemas espacialmente extendidos.
 
+En cada paso de la simulación, la transición de S a I ocurre con probabilidad 1−c si
+existe un vecino infectado, mientras que la transición de I a R ocurre con probabilidad c. Se trabaja
+con redes lineales sin un tamaño fijo, donde cada simulación comienza con un único infectado
+ubicado en el centro
+
 
 ## Resultados Principales
 
